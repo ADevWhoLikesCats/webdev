@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Haven Estates (Demo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="site-header"></div>
+<main>
+<div class="page"><div class="contact"><div><h1>Make an enquiry</h1><br><p>Tell us which home or area interests you. This is a demo, so your message is not sent anywhere.</p></div>
+<div><form id="enquiry" novalidate>
+<div class="field"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" aria-describedby="err-name"><p class="error" id="err-name"></p></div>
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="err-email"><p class="error" id="err-email"></p></div>
+<div class="field"><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="err-phone"><p class="error" id="err-phone"></p></div>
+<div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" aria-describedby="err-message"></textarea><p class="error" id="err-message"></p></div>
+<button class="btn" type="submit">Send enquiry</button></form>
+<div id="sent" hidden tabindex="-1"><h3>Enquiry received</h3><p>Thank you. In a real agency we would reply within one working day. Nothing was sent, as this is a demo.</p></div></div></div></div>
+</main>
+<div id="site-footer"></div>
+<script src="properties.js"></script><script src="main.js"></script>
+</body></html>
